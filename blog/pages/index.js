@@ -3,10 +3,17 @@ import Image from 'next/image'
 import React from 'react'
 import styles from '../styles/Home.module.css'
 
+function Decoration(props) {
+  return <div style={{ color: 'red' }}>{props.children}</div>
+}
+
 function EchoPost(props) {
   return (
     <article>
-      <h3>{props.title}</h3>
+      <Decoration>
+        <h3>{props.title}</h3>
+        <hr />
+      </Decoration>
     </article>
   )
 }
