@@ -8,9 +8,15 @@ export default function Home() {
 
   return (
     <>
-      <h1 style={{ color: 'red', fontSize: '80px' }}>CUBE*a</h1>
-      <hr />
-      <p>{subtitle}</p>
+      <header>HEADER!</header>
+
+      <main>
+        <h1 style={{ color: 'red', fontSize: '80px' }}>CUBE*a</h1>
+        <hr />
+        <p>{subtitle}</p>
+      </main>
+
+      <footer>FOOTER!!</footer>
     </>
   )
 }
