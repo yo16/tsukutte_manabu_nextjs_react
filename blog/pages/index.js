@@ -2,5 +2,5 @@ import Layout from 'components/layout'
 import Hero from 'components/hero'
 
 export default function Home() {
-  return <Hero title="CUBE" subtitle="アウトプットしていくサイトー" />
+  return <Hero title="CUBE" subtitle="アウトプットしていくサイトー" imageOn />
 }
