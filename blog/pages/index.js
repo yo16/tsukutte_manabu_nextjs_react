@@ -3,10 +3,10 @@ import Image from 'next/image'
 import React from 'react'
 import styles from '../styles/Home.module.css'
 
-function EchoPost() {
+function EchoPost(props) {
   return (
     <article>
-      <h3>記事のタイトル</h3>
+      <h3>{props.title}</h3>
     </article>
   )
 }
@@ -22,8 +22,8 @@ export default function Home() {
         <h1 style={{ color: 'red', fontSize: '80px' }}>CUBE*a</h1>
         <hr />
         <p>{subtitle}</p>
-        <EchoPost />
-        <EchoPost />
+        <EchoPost title="タイトル１" />
+        <EchoPost title="タイトル２" />
       </main>
 
       <footer style={{ backgroundColor: '#3c3' }}>FOOTER!!</footer>
