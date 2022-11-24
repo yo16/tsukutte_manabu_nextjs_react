@@ -1,5 +1,6 @@
 # tsukutte_manabu_nextjs_react
-「[作って学ぶNext.js/React Webサイト構築](https://amzn.to/3VkHD97)」の写経
+
+「[作って学ぶ Next.js/React Web サイト構築](https://amzn.to/3VkHD97)」の写経
 
 - 本の情報
   - ソース
@@ -7,10 +8,10 @@
   - サポートサイト
     - [https://book.mynavi.jp/supportsite/detail/9784839980177.html](https://book.mynavi.jp/supportsite/detail/9784839980177.html)
   - その他
-    - 本ではNext.jsのバージョンは12だが、githubに13用のコーディングの書き方や、12から13へのアップグレードツールの紹介をしている。
+    - 本では Next.js のバージョンは 12 だが、github に 13 用のコーディングの書き方や、12 から 13 へのアップグレードツールの紹介をしている。
 
 # バージョン
-- このgithubレポジトリのバージョン
+- この github レポジトリのバージョン
   - ```
     $ npm list
     blog@0.1.0
@@ -21,7 +22,7 @@
     ├── react-dom@18.2.0
     └── react@18.2.0
     ```
-- 本のバージョン(package.jsonより)
+- 本のバージョン(package.json より)
   - ```
     "dependencies": {
       "@fortawesome/fontawesome-svg-core": "^6.1.1",
@@ -46,4 +47,5 @@
     ```
 
 # 関連リンク
+
 - [Next.js create-next-app](https://nextjs.org/docs/api-reference/create-next-app)
