@@ -1,0 +1,25 @@
+.stack > * + * {
+  margin-top: var(--stack-space, 1.5em);
+}
+
+/* 上で使っている--stack-spaceの定義
+    ケースバイケースなので、要素によって変数の値が違う */
+.stack h2,
+.stack h3 {
+  --stack-space: 2em;
+}
+
+.stack h2 + *,
+.stack h3 + * {
+  --stack-space: 0.8em;
+}
+
+.stack p {
+  line-height: 1.8;
+}
+
+/* 記事中のulは通常のスタイルに戻す */
+.stack ul {
+  padding: revert;
+  list-style: revert;
+}
