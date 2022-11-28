@@ -48,6 +48,12 @@ h3 {
   font-size: var(--heading3);
 }
 
+/* next/image */
+/* 全体にblurの時間を設定 */
+span > img {
+  transition: 1s;
+}
+
 /* ブラウザの標準適用マージンなどのリセット */
 body,
 h1,
