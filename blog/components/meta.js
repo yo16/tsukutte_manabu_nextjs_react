@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 
 // サイトに関する情報
 import { siteMeta } from 'lib/constants'
@@ -11,6 +12,10 @@ export default function Meta({ pageTitle, pageDesc }){
     // ページの説明
     const desc = pageDesc ?? siteDesc
 
+    // ページのURL
+    const router = useRouter()
+    const url = `${siteUrl}${router.asPath}`
+
     return (
         <Head>
             <title>{_title}</title>
@@ -18,6 +23,9 @@ export default function Meta({ pageTitle, pageDesc }){
 
             <meta name="description" content={desc} />
             <meta property="og:description" content={desc } />
+
+            <link rel="canonical" href={url} />
+            <meta property="og:url" content={url} />
         </Head>
     )
 }
