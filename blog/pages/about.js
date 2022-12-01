@@ -17,6 +17,9 @@ export default function About() {
       <Meta
         pageTitle="アバウト"
         pageDesc="About development activities"
+        pageImg={eyecatch.src}
+        pageImgW={eyecatch.width}
+        pageImgH={eyecatch.height}
       />
 
       <Hero title="About" subtitle="だいたい" />
