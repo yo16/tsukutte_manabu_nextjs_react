@@ -1,6 +1,6 @@
 import styles from 'styles/post-heder.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faClock } from '@fortawesome/free-regular-svg-icons'
+import { faClock } from '@fortawesome/free-solid-svg-icons'
 
 export default function PostHeader({ title, subtitle, publish = '' }) {
   return (
