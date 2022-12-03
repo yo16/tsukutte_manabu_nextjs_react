@@ -15,10 +15,17 @@
   - ```
     $ npm list
     blog@0.1.0
-    ├── eslint-config-next@13.0.4
+    ├── @fortawesome/fontawesome-svg-core@6.2.1
+    ├── @fortawesome/free-brands-svg-icons@6.2.1
+    ├── @fortawesome/free-regular-svg-icons@6.2.1
+    ├── @fortawesome/free-solid-svg-icons@6.2.1
+    ├── @fortawesome/react-fontawesome@0.2.0
+    ├── date-fns@2.29.3
+    ├── eslint-config-next@13.0.5
     ├── eslint-config-prettier@8.5.0
     ├── eslint@8.28.0
-    ├── next@13.0.4
+    ├── microcms-js-sdk@2.3.2
+    ├── next@13.0.5
     ├── react-dom@18.2.0
     └── react@18.2.0
     ```
