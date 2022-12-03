@@ -6,7 +6,7 @@ import ja from 'date-fns/locale/ja'
 export default function ConvertDate({ dateISO }) {
   return (
     <time dateTime={dateISO}>
-      {format(parseISO(dateISO), 'yyyy年M月d日 H時mm分', {
+      {format(parseISO(dateISO), 'yyyy年M月d日 HH:mm', {
         locale: ja,
       })}
     </time>
