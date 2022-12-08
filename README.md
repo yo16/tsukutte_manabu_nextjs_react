@@ -47,9 +47,9 @@
     }
     ```
 
-# 使ったもののメモ
+# 使ったものや知ったことのメモ
 
-## microCMS
+## [microCMS](https://microcms.io/)
 
 - CMS とは
   - Contents Management System
@@ -57,7 +57,12 @@
   - スラッグとは
     - ページを識別する URL の一部
     - 分類を URL で表現するようなもの
-- https://microcms.io/
+
+## JavaScript 関数
+
+### [Array.prototype.map()](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+- 配列の全要素に対して、同じ編集を施した結果の、同じ要素数の配列を返す関数。
 
 # 関連リンク
 
