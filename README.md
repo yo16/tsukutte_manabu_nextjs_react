@@ -58,6 +58,12 @@
     - ページを識別する URL の一部
     - 分類を URL で表現するようなもの
 
+## npm モジュール
+
+### html-to-text
+
+- HTML の中から、いらないタグや属性をはじいて、テキストにする
+
 ## JavaScript 関数
 
 ### [Array.prototype.map()](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
