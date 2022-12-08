@@ -64,6 +64,13 @@
 
 - 配列の全要素に対して、同じ編集を施した結果の、同じ要素数の配列を返す関数。
 
+## CSS
+
+### Bootstrap class=[sr-only](https://getbootstrap.jp/docs/4.2/utilities/screenreaders/)
+
+- スクリーンリーダーを除くすべてのデバイスで要素を非表示できる。
+  - スクリーンリーダーとは、コンピューターの画面読み上げソフト。
+
 # 関連リンク
 
 - [Next.js create-next-app](https://nextjs.org/docs/api-reference/create-next-app)
