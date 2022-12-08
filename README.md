@@ -11,6 +11,7 @@
     - 本では Next.js のバージョンは 12 だが、github に 13 用のコーディングの書き方や、12 から 13 へのアップグレードツールの紹介をしている。
 
 # バージョン
+
 - この github レポジトリのバージョン
   - ```
     $ npm list
@@ -46,7 +47,18 @@
     }
     ```
 
+# 使ったもののメモ
+
+## microCMS
+
+- CMS とは
+  - Contents Management System
+  - Web サイトのコンテンツを構成するテキストや画像、デザイン・レイアウト情報（テンプレート）などを一元的に保存・管理するシステム。
+  - スラッグとは
+    - ページを識別する URL の一部
+    - 分類を URL で表現するようなもの
+- https://microcms.io/
+
 # 関連リンク
 
 - [Next.js create-next-app](https://nextjs.org/docs/api-reference/create-next-app)
-
