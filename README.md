@@ -11,6 +11,7 @@
     - 本では Next.js のバージョンは 12 だが、github に 13 用のコーディングの書き方や、12 から 13 へのアップグレードツールの紹介をしている。
 
 # バージョン
+
 - この github レポジトリのバージョン
   - ```
     $ npm list
@@ -53,7 +54,36 @@
     }
     ```
 
+# 使ったものや知ったことのメモ
+
+## [microCMS](https://microcms.io/)
+
+- CMS とは
+  - Contents Management System
+  - Web サイトのコンテンツを構成するテキストや画像、デザイン・レイアウト情報（テンプレート）などを一元的に保存・管理するシステム。
+  - スラッグとは
+    - ページを識別する URL の一部
+    - 分類を URL で表現するようなもの
+
+## npm モジュール
+
+### html-to-text
+
+- HTML の中から、いらないタグや属性をはじいて、テキストにする
+
+## JavaScript 関数
+
+### [Array.prototype.map()](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+- 配列の全要素に対して、同じ編集を施した結果の、同じ要素数の配列を返す関数。
+
+## CSS
+
+### Bootstrap class=[sr-only](https://getbootstrap.jp/docs/4.2/utilities/screenreaders/)
+
+- スクリーンリーダーを除くすべてのデバイスで要素を非表示できる。
+  - スクリーンリーダーとは、コンピューターの画面読み上げソフト。
+
 # 関連リンク
 
 - [Next.js create-next-app](https://nextjs.org/docs/api-reference/create-next-app)
-
